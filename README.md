@@ -3,6 +3,9 @@
 ## What is this?
 The package `fungicide_model` provides an implementation of the models described in Elderfield *et al.* 2018 (https://apsjournals.apsnet.org/doi/abs/10.1094/PHYTO-08-17-0277-R?url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org&rfr_dat=cr_pub%3Dpubmed). These are ODE models of fungicide resistance evolution in septoria leaf blotch of UK winter wheat and in powdery mildew of French grapevine. 
 
+## What am I allowed to do with this code?
+Feel free to use or modify this code in any way you see fit. If your work leads to a publication of any sort I would ask that you cite the paper introducing this model (linked above).
+
 ## How do I use it? (A short example)
 You can can use the `Parameters` class to define the parameter values used for the simulation, defaults matching those in the paper are provided for all but the fungicide application strategy (`Parameters.strategy`) and the doses to use (`Parameters.highRiskDose` and `Parameters.lowRiskDose`). For example
 
