@@ -11,5 +11,8 @@ setup(
     license = "MIT",
     url = "",  # TODO: Point to bioarxiv version of paper
     packages = ["fungicide_model"],
-    requires = ["numpy", "pandas", "scipy"]
+    requires = ["numpy", "pandas", "scipy"],
+    classifiers = [
+        "Programming Language :: Python :: 3"
+    ]
 )
