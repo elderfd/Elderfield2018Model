@@ -6,7 +6,10 @@ from .fungicide import Fungicide
 from math import exp
 from numpy import arange
 from numpy import asarray
-from numpy import trapz
+try:
+    from numpy import trapezoid as trapz  # NumPy >= 2.0
+except ImportError:  # NumPy < 2.0
+    from numpy import trapz
 from numpy import diff
 from pandas import DataFrame
 from scipy.integrate import ode
